@@ -48,6 +48,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
+   extracCSS: true,
     extend (config, ctx) {
     }
   }
