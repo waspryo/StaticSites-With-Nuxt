@@ -1,5 +1,8 @@
 <template>
-  <div>contact page</div>
+<div class="container">
+  <div class="title">contact page</div>
+  <span class="subtitle">This is a subtitle</span>
+  </div>
 </template>
 
 <script>
@@ -16,3 +19,22 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+@import "assets/scss/variables";
+
+
+  .container {
+    width: 960px;
+    margin: 40px auto;
+    background: $blue;
+
+    .title {
+      font-size: 36px;
+    }
+    .subtitle {
+      display: block;
+      font-size: 18px;
+    }
+  }
+</style>
